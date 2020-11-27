@@ -1,6 +1,4 @@
-
-
-let email = 'amanda@thenetninja.co.uk';
+// let email = 'amanda@thenetninja.co.uk';
 
 
 // let result = email.lastIndexOf('n');
@@ -11,6 +9,6 @@ let email = 'amanda@thenetninja.co.uk';
 
 // let result = email.replace('m' 'w');
 
-let result = email.replace('n', 'w');
+// let result = email.replace('n', 'w');
 
-console.log(result); 
+// console.log(result); 
