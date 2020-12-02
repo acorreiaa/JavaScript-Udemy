@@ -7,13 +7,20 @@ const likes = 30;
 // let result = 'The Blog called ' + title + ' by ' + author + ' has ' + likes + ' likes';
 // console.log(result);
 // template string way
-let result = `The blog called ${title} by ${author} has ${likes} likes`;
-console.log(result);
+// let result = `The blog called ${title} by ${author} has ${likes} likes`;
+// console.log(result);
 // creating html templates 
-let html = `
-<h2>${title}</h2>
-<p>${author}</p>
-span>This blog has ${likes} likes</span>
-`;
+// let html = `
+// <h2>${title}</h2>
+// <p>${author}</p>
+// span>This blog has ${likes} likes</span>
+// `;
 
-console.log(html);
+// console.log(html);
+
+//          null       
+
+// let age; // vai dar undefined
+
+// let age = null;
+// console.log(age, age + 3, `the age is ${age}`);
