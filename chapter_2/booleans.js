@@ -27,8 +27,27 @@ let age = 25;
 
 let name = 'shaun';
 
-console.log(name == 'shaun');
-console.log(name == 'Shaun');
-console.log(name > 'crystal'); // s is greater than c
-console.log(name > 'Shaun'); // lower case is greater than uper case
-console.log(name > 'Crystal')
+// console.log(name == 'shaun'); --true
+// console.log(name == 'Shaun'); --false
+// console.log(name > 'crystal'); --true // s is greater than c
+// console.log(name > 'Shaun'); --true // lower case is greater than uper case
+// console.log(name > 'Crystal'); --true
+
+
+// STRING COMPARITION        //
+
+// loose comparison (different types can still be equal)
+
+// console.log(age == 25); -- true
+// console.log(age == '25'); --true
+// console.log(age != 25); --false
+// console.log(age != '25'); --false
+
+// strict comparison (different types cannot be equal)
+
+// console.log(age === 25); --true
+// console.log(age === '25'); --false
+// console.log(age !== 25); --false
+// console.log(age !==  '25') --true
+
+
