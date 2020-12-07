@@ -1,9 +1,9 @@
 // booleans & comparisons
-console.log(true, false, "true", "false");
+// console.log(true, false, "true", "false");
 
 // methods can return booleans
-let email = 'luigi@thenetninja.co.uk';
-let names = ['mario', 'luigi', 'toad'];
+// let email = 'luigi@thenetninja.co.uk';
+// let names = ['mario', 'luigi', 'toad'];
 
 // let result = email.includes('@'); -- true
 // let result = email.includes('!'); // -- false
@@ -12,7 +12,7 @@ let names = ['mario', 'luigi', 'toad'];
 // console.log(result);
 
 // comparison operations
-let age = 25;
+// let age = 25;
 
 // console.log(age == 25); -- true
 // console.log(age == 30); -- false

@@ -8,5 +8,5 @@ let score = '100';
 // let result = String(50);
 // let result = Boolean(0); //--false
 // let result = Boolean(''); //--false
-console.log(result, typeof result);
+// console.log(result, typeof result);
 // typeof: fala o tipo, se é string ou número, objeto, array....
