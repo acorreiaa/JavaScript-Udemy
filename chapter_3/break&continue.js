@@ -36,3 +36,5 @@ switch(grade){
     default:
         console.log('not a valid grade');    
 }
+
+//code block - de uma chave({) até outra chave(})

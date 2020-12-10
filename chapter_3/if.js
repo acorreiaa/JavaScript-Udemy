@@ -37,10 +37,10 @@ if(password.length >=12 && password.includes('@')){
 
 // logical NOT (!)
 
-// let user = false;
+let user = false;
 if(!user){
     console.log('you must be llogged in to continue');
 }
 
 console.log(!true);
-console.log(!false);n 
+console.log(!false);
