@@ -44,3 +44,6 @@ const content = document.querySelector('.content');
 //console.log(content.innerHTML);
 //content.innerHTML = '<h2>THIS IS A NEW H2</h2>';
 content.innerHTML += '<h2>THIS IS A NEW H2</h2>';
+
+//innertext-nao pega oq tenha sido alterado
+//textcontent: enxerga MediaStreamTrackAudioSourceNode, mesmo se tiver escondido (nao liga pra css)
