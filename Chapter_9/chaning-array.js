@@ -13,7 +13,7 @@ const productsB = [
 //});
 
 const promos = products
-    ''.filter(product => product.price > 20)
+    .filter(product => product.price > 20)
     .map(product => `the ${product.name} is ${product.price / 2} prounds`);
 
 console.log(promos);
