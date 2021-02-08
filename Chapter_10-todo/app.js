@@ -1,5 +1,6 @@
 const addForm = document.querySelector('.add');
 const list = document.querySelector('.todos');
+const search = document.querySelector('.search input');
 
 const generateTemplate = todo => {
 
@@ -20,14 +21,24 @@ addForm.addEventListener('submit', e => {
     
     if(todo.length){
         generateTemplate(todo); //a função de colocar a frase na lista
-        addForm.requestFullscreen();
+        addForm.reset();
     }
 });
 
 // delete todos
 list.addEventListener('click', e => {
     if(e.target.classList.contains('delete')){
-        console.log(e.target);
+        e.target.parentElement.remove();
     }
 
+});
+
+const filterTodos = (term) => {
+    console.log(Array.from(list.children));
+};
+
+// keyup event
+search.addEventListener('keyup', () => {
+    const term = search.value.trim();
+    filterTodos(term);
 });
